@@ -12,29 +12,47 @@
 
 # testing
 /coverage
+/playwright-report
+/test-results
 
 # next.js
 /.next/
 /out/
+/data/
+/build/
 
 # production
 /build
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
+
+# local databases
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
+
+# local editor and tool caches
+.idea/
+.turbo/
+.cache/
 
 # typescript
 *.tsbuildinfo
